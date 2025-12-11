@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+body{
+    margin: 0; 
+    min-height: 100vh; 
+    overflow-x: hidden;
+    background: linear-gradient(119.05deg, #8F8DFF 9.77%, #6B69F8 82.1%);
+}
+.common{
+    display: flex;
+}
+h1,h2,h3,h4{
+   font-family: SF Pro Display;
+}
+p{
+  font-family: SF Pro Display;
+  font-size: 13px;
+  font-weight:100;
+  Line-height: 100%;
+  Letter-spacing:0%;
+  justify-content: center;
+  color: #cdc9c9;
+  word-spacing: 1px;
+}
+.white{
+    font-family: SF Pro Display;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#FFFFFF;
+}
+.text{
+    text-align: left;
+}
+.big{
+   Width:306px;
+   Height:411px;
+   border-radius: 20px;
+   background-color: #1E1E1E;
+
+}
+.disc{
+    height: 31px;
+    width: 54px;
+    background-color:#6557FF ;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 25px;
+    
+}
+.size{
+   Width:250px;
+   Height:411px;
+}
+.Choose{
+    width: 138px;
+    height: 37px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: SF Pro Display;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background-color:#6557FF ;
+    
+}
+.Choose:hover{
+    background-color: #463f98;
+}
+.flex{
+    display: flex;
+    gap: 7px;
+}
+.medium,.small{
+
+}
