@@ -1,0 +1,53 @@
+Lecture 1 – Exercise 1
+
+
+
+Instructions:
+
+Answer each question in 50-100 words using your own words.
+
+Do not use AI tools (e.g. ChatGPT, Copilot, Bard, etc.) – instead research by reading official documentation, technical blogs or articles.
+
+Provide at least one reference for each answer. (e.g. link to an article, documentation or book).
+
+Write complete sentences and use your own words.
+
+
+
+Questions:
+
+If Python is so popular (see e.g. TIOBE index), why are many projects still done in other languages?
+
+(50-100 words. Include a source)
+
+
+
+If Garbage collection automatically manages memory, why aren’t all languages adopting it?
+
+(50-100 words. Include a source)
+
+
+
+What is an advantage of having a Virtual Machine, such as the .NET Common Language Runtime (CLR) or Python’s Virtual Machine (PVM)?
+
+(50-100 words. Include a source)
+
+
+
+
+
+What are a few well-established technologies or frameworks built with TypeScript? Provide reasoning why developers might prefer TypeScript over plain JavaScript, even though both run in the same JavaScript runtime (V8 or Node.js)
+
+(50-100 words. Include a source)
+
+
+Answers:
+1. Python is indeed currently the most popular programming language, but it doesn't mean it's the best out of all other languages. It's like any other language - sometimes it's the best and the most suitable for certain problems and solutions, sometimes - the worst. It's also just a tool that may some day become forgotten, as a new language, more suitable for certain programming tasks, may show up and replace Python. The answer is that it's popular, but it will never do all the tasks equally well, therefore, it's the reason why many projects are still done in othe programming languages.
+https://www.quora.com/If-Python-is-so-popular-why-has-it-not-been-able-to-replace-other-programming-languages-permanently
+2.Programming languages, if their efficiency was a goal, that were designed before 1985-1990, didn't have garbage collections, as really efficient ones were developed after. Regions, fancy type systems were used instead. These methods are especially useful for things like device drivers, where you can’t always use extra memory, or for real-time systems, where memory usage must be very predictable.
+Implementing a good GC is also not so easy to do.There are also languages with strong types that still don't have a GC, because their designers did not believe in it, or believed they could do better without it.
+https://stackoverflow.com/questions/2444791/why-other-languages-dont-have-automatic-garbage-collection-similar-as-that-of-t
+3.A key advantage of a virtual machine, such as the .NET CLR or Python’s VM, is automatic memory management. It frees programmers from manually allocating and releasing memory by using garbage collection. This reduces errors, prevents memory leaks, and makes applications safer and more reliable across different platforms.
+https://www.geeksforgeeks.org/python/python-virtual-machine/?utm_source=
+4. Frameworks like Visual Studio Code, Angular, and NestJS are built with TypeScript. Developers prefer TypeScript over plain JavaScript because it offers compile-time type checking, better tooling and clearer APIs for team projects. This improves reliability and maintainability even though both run on the same runtime.
+https://www.geeksforgeeks.org/what-is-typescript-and-why-use-it/?utm_source=
